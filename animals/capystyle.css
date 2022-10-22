@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Chivo', sans-serif;
+  }
+  
+  body {
+    padding: 20px;
+    background: #f1f1f1;
+  }
+  
+  /* Header/Blog Title */
+  .header {
+    padding: 30px;
+    font-size: 40px;
+    text-align: center;
+    background: #CB997E;
+  }
+  
+  
+  /* top cenetered image */
+  .topimg {
+    display: block;
+    width : 50%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto; 
+    background-color: antiquewhite;
+    padding: 15px;
+    border: 6px solid black;
+  }
+
+  /*Image on the side */
+  .bodyimg {
+    display: flexbox;
+    width : 30%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: antiquewhite;
+    padding: 15px;
+    border: 6px solid black;
+  }
+
+
+  
+  /* Add a card effect for articles */
+  .card {
+    background-color: #EDE0D4;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  /* Clear floats after the body */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Footer */
+  .footer {
+    padding: 20px;
+    text-align: center;
+    background: #CB997E;
+    margin-top: 20px;
+  }

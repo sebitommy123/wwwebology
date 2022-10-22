@@ -1,0 +1,55 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.landing-img {
+  width: 100vw;
+  height: 50%;
+  position: relative;
+}
+
+.container{
+  position: relative;
+}
+
+.text-block {
+ position: absolute; 
+  display: flex;
+  bottom: 48vh; 
+  left:32%;
+  font-size: xxx-large;
+  color: white;
+  z-index: 100;
+}
+
+.imagecontainer{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.titlelink {
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.indexphotos{
+  padding: 10px 50px 0px; 
+  height: 350px;
+}
+
+.showtext{
+  padding: 0px 20vw;
+}
+ul{
+  display: inline-block;
+}
+ol{
+  display: inline-block;
+
+}
+
+/* Kid Feet CSS */
